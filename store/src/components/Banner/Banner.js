@@ -1,5 +1,6 @@
 import React from "react";
 import "./Banner.css";
+import bannerImage from "../../images/banner-img.jpg";
 
 const Banner = () => {
   return (
@@ -12,6 +13,9 @@ const Banner = () => {
           e acessórios essenciais. Cultive um jardim exuberante e saudável com
           os melhores produtos do mercado.
         </p>
+      </div>
+      <div className="banner-img">
+        <img src={bannerImage} alt="Banner" />
       </div>
     </div>
   );

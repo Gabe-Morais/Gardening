@@ -41,13 +41,20 @@ const ProductCard = ({ product }) => {
         )}
       </svg>
 
-      <img className="card-image" src={product.image} alt={product.name} />
+      <div className="image-container">
+        <Link to={`/product/${product.id}`} style={{ textDecoration: "none" }}>
+          <img className="card-image" src={product.image} alt={product.name} />
+        </Link>
+      </div>
 
       <div className="card-info">
-        <h3 className="card-name">{product.name}</h3>
+        <Link to={`/product/${product.id}`} style={{ textDecoration: "none" }}>
+          <h3 className="card-name">{product.name}</h3>
+        </Link>
         <p className="card-price">R$ {product.price}</p>
         <p className="installment">10x de R$ {installmentValue}</p>
       </div>
+
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="45"

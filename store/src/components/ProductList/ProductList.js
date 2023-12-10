@@ -11,13 +11,7 @@ const ProductList = () => {
       <h2 className="subtitle">Os melhores produtos para jardinagem</h2>
       <div className="cards">
         {products.map((product) => (
-          <Link
-            to={`/product/${product.id}`}
-            key={product.id}
-            style={{ textDecoration: "none" }}
-          >
-            <ProductCard product={product} />
-          </Link>
+          <ProductCard product={product} />
         ))}
       </div>
     </div>

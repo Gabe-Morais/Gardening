@@ -10,28 +10,48 @@
 }
 
 .text-div {
-  margin-left: 15%;
-  max-width: 50%; 
+  flex: 1;
+  padding: 0 15px;
+  max-width: 600px; /* Adiciona um valor para a largura máxima */
 }
 
 .welcome-title {
   font-size: 3em;
+  margin-bottom: 10px;
 }
 
 .welcome-text {
   font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.banner-img {
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+}
+
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* media query para ajustar o layout em telas menores */
-/* temporario / teste*/
 @media screen and (max-width: 768px) {
   .banner {
     flex-direction: column;
     height: auto;
   }
 
-  .text-div {
-    margin-left: 0;
-    max-width: 100%;
+  .text-div,
+  .banner-img {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .welcome-title,
+  .welcome-text {
+    margin-bottom: 15px;
   }
 }
