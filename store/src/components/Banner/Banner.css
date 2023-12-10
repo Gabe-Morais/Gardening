@@ -12,7 +12,7 @@
 .text-div {
   flex: 1;
   padding: 0 15px;
-  max-width: 600px; /* Adiciona um valor para a largura máxima */
+  max-width: 600px;
 }
 
 .welcome-title {
@@ -28,7 +28,7 @@
 .banner-img {
   flex: 1;
   height: 100%;
-  overflow: hidden;
+  overflow: hidden; /* para evitar que o conteudo de dentro ultrapasse o elemento*/
 }
 
 .banner-img img {
