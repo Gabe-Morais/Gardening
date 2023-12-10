@@ -1,9 +1,12 @@
 import React from "react";
+import "./DetailsCard.css";
 
-export default function DetailsCard() {
+const DetailsCard = ({ product }) => {
   return (
-    <div>
-      <img src="teste" alt="teste"></img>
+    <div className="card-container">
+      {/*<img src={product.image} alt={product.name}></img> comentado até corrigir*/}
     </div>
   );
-}
+};
+
+export default DetailsCard;

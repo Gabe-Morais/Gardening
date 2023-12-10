@@ -22,6 +22,7 @@
 }
 
 /* Adicionado um media query para ajustar o layout em telas menores */
+/*temporario / testando*/
 @media screen and (max-width: 768px) {
   .cards {
     justify-content: center;

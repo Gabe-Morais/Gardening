@@ -1,0 +1,15 @@
+.info{
+    text-align: left;
+}
+
+.product-name,
+.product-price{
+    color:#143939;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.product-installment{
+    font-size: 1.3em;
+    color: #727272;
+}
