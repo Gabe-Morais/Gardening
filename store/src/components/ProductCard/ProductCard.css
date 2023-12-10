@@ -1,8 +1,6 @@
-/* Adicione essas alterações ao seu arquivo ProductCard.css */
-
 .product-card {
-  width: 305px;
-  height: 305px;
+  width: 200px;
+  height: 200px;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 10px;
@@ -14,27 +12,30 @@
   font-size: 10px;
 }
 
-.product-image {
+.card-image {
   width: 100%;
-  max-height: 60%; 
+  max-height: 50%; 
   object-fit: contain; 
   border-radius: 10px;
 }
 
-.product-info {
+.card-info {
   text-align: left;
-  max-height: 40%; 
+  max-height: 50%;
   overflow: hidden;
 }
 
-.product-name {
-  font-size: 14px;
+.card-name {
+  font-size: 12px;
   margin-bottom: 4px;
   color: #143939;
+  overflow: hidden;
+  text-overflow: ellipsis; /* resolvendo problema do texto quebrando usando (...) possivel solução */
+  white-space: nowrap; /* não deixa a linha quebrar */
 }
 
-.product-price {
-  font-size: 14px;
+.card-price {
+  font-size: 12px;
   color: #5B5B5B;
   margin-bottom: 4px;
 }
@@ -43,5 +44,4 @@
   margin: 0;
   color: #727272;
   font-size: 12px;
-
 }
