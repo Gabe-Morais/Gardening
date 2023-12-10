@@ -1,5 +1,6 @@
 import React from "react";
 import "./DetailsInfo.css";
+import BuyButton from "../BuyButton/BuyButton";
 
 const DetailsInfo = ({ product }) => {
   const installmentValue = (product.price / 10).toFixed(2);
@@ -10,6 +11,9 @@ const DetailsInfo = ({ product }) => {
       <p className="product-installment">
         em até 10x de {installmentValue} sem juros
       </p>
+      <div className="button-div">
+        <BuyButton />
+      </div>
     </div>
   );
 };

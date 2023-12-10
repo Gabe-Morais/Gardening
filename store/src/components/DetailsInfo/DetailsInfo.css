@@ -1,6 +1,8 @@
-.info{
+.info {
     text-align: left;
-}
+    max-width: 500px;
+    margin: 0 auto;
+  }
 
 .product-name,
 .product-price{
@@ -10,6 +12,12 @@
 }
 
 .product-installment{
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #727272;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+ 
 }
