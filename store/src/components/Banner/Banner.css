@@ -11,7 +11,7 @@
 
 .text-div {
   margin-left: 15%;
-  max-width: 30%;
+  max-width: 50%; 
 }
 
 .welcome-title {
@@ -20,4 +20,18 @@
 
 .welcome-text {
   font-size: 1.3em;
+}
+
+/* media query para ajustar o layout em telas menores */
+/* temporario / teste*/
+@media screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .text-div {
+    margin-left: 0;
+    max-width: 100%;
+  }
 }

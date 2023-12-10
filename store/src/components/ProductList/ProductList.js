@@ -1,0 +1,27 @@
+import React from "react";
+import "./ProductList.css";
+import ProductCard from "../ProductCard/ProductCard";
+import products from "../../data/products";
+import { Link } from "react-router-dom";
+
+const ProductList = () => {
+  return (
+    <div className="product-list">
+      <h1 className="title">Produtos</h1>
+      <h2 className="subtitle">Os melhores produtos para jardinagem</h2>
+      <div className="cards">
+        {products.map((product) => (
+          <Link
+            to={`/product/${product.id}`}
+            key={product.id}
+            style={{ textDecoration: "none" }}
+          >
+            <ProductCard product={product} />
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default ProductList;

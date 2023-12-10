@@ -1,0 +1,29 @@
+.title {
+  color: #143939;
+}
+
+.subtitle {
+  color: #7e7e7e;
+  font-size: 1.3em;
+}
+
+.title, .subtitle {
+  text-align: left;
+}
+
+.product-list {
+  margin: 0 15%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Adicionado um media query para ajustar o layout em telas menores */
+@media screen and (max-width: 768px) {
+  .cards {
+    justify-content: center;
+  }
+}
