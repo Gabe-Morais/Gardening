@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import menuIcon from "../../images/icons/menu.svg";
 import logoPlaceholder from "../../images/icons/logo-placeholder.svg";
@@ -35,7 +35,9 @@ const Navbar = () => {
       </div>
       <div className="right-section">
         <img src={favoriteIcon} alt="Favorite" className="icon" />
-        <img src={cartIcon} alt="Cart" className="icon" />
+        <Link to="/cart">
+          <img src={cartIcon} alt="Cart" className="icon" />
+        </Link>
         <img src={avatarIcon} alt="Avatar" className="icon" />
       </div>
     </nav>
