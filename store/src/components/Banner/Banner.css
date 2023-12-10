@@ -1,0 +1,23 @@
+.banner {
+  background-color: #408080;
+  color: white;
+  height: 444px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-align: left;
+}
+
+.text-div {
+  margin-left: 15%;
+  max-width: 30%;
+}
+
+.welcome-title {
+  font-size: 3em;
+}
+
+.welcome-text {
+  font-size: 1.3em;
+}
