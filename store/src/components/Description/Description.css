@@ -5,12 +5,12 @@
   
   .desc-title {
     color: #143939;
-    font-size: 2em;
+    font-size: 2em !important;;
     font-weight: 500;
   }
   
   .desc-text {
     color: #727272;
-    font-size: 1.3em;
+    font-size: 1.3em !important;;
   }
   

@@ -1,8 +1,19 @@
+/* DetailsCard.css */
 .card-container {
-    height: 628px;
-    width: 679.58px;
-    border: 1px solid #5B5B5B;
-    border-radius: 20px;
-    background-color: #f2f2f2;
-  }
-  
+  height: 628px;
+  width: 679.58px;
+  border: 1px solid #5B5B5B;
+  border-radius: 20px;
+  background-color: #FFF;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.card-container img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 0 auto; /*Para centralizar a imagem (??)*/
+}

@@ -1,0 +1,33 @@
+.cep-div{
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    width: 380px;
+
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.cep-button{
+    color: #408080;
+    border: 1px solid #408080;
+    border-radius: 10px;
+    background: none;
+    margin-left: 20px;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+.cep-text{
+    color:#727272;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.cep-input{
+    color: #727272;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.2em;
+    max-width: 50%;
+}
