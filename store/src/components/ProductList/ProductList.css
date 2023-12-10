@@ -1,3 +1,8 @@
+.product-list {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .title {
   color: #143939;
 }
@@ -7,22 +12,18 @@
   font-size: 1.3em;
 }
 
-.title, .subtitle {
+.title,
+.subtitle {
   text-align: left;
-}
-
-.product-list {
-  margin: 0 15%;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 /* Adicionado um media query para ajustar o layout em telas menores */
-/*temporario / testando*/
 @media screen and (max-width: 768px) {
   .cards {
     justify-content: center;

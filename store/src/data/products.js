@@ -58,6 +58,13 @@ export const products = [
     price: 199.99,
     image: adubo,
   },
+  {
+    id: 9,
+    name: "Produto 8",
+    description: "Descrição do Produto 8",
+    price: 199.99,
+    image: adubo,
+  },
 ];
 
 export default products;
