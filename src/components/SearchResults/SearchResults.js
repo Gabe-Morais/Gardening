@@ -18,15 +18,19 @@ const SearchResults = () => {
       <div className="search-result">
         <h2 className="search-title">Resultado da pesquisa para "{query}"</h2>
         <div className="cards">
-          {filteredProducts.map((product) => (
-            <Link
-              to={`/product/${product.id}`}
-              key={product.id}
-              style={{ textDecoration: "none" }}
-            >
-              <ProductCard key={product.id} product={product} />
-            </Link>
-          ))}
+          {filteredProducts.length === 0 ? (
+            <p>Não há resultados para sua pesquisa.</p>
+          ) : (
+            filteredProducts.map((product) => (
+              <Link
+                to={`/product/${product.id}`}
+                key={product.id}
+                style={{ textDecoration: "none" }}
+              >
+                <ProductCard key={product.id} product={product} />
+              </Link>
+            ))
+          )}
         </div>
       </div>
     </div>

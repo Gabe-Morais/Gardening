@@ -36,7 +36,9 @@ const Navbar = () => {
         </form>
       </div>
       <div className="right-section">
-        <img src={favoriteIcon} alt="Favorite" className="icon" />
+        <Link to="/favorites">
+          <img src={favoriteIcon} alt="Favorite" className="icon" />
+        </Link>
         <Link to="/cart">
           <img src={cartIcon} alt="Cart" className="icon" />
         </Link>
