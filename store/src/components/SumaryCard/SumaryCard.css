@@ -1,0 +1,73 @@
+.sumary-main-container{
+    margin: 0;
+    width: 400px;
+    height: 600px;
+    border: solid 1px #5B5B5B;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#143939 ;
+  margin-top: 10%;
+}
+
+.sumary-main-container p {
+    margin: 0; /* Remover a margem padrão dos parágrafo que atrapalhavam */
+  }
+
+.sumary-title{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.sumary-products,
+.sumary-shipment{
+
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 10px 0; 
+}
+
+
+
+.sumary-products,
+.sumary-shipment,
+.sumary-total-container {
+  width: 80%; 
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.sumary-line {
+    width: 80%;
+    height: 1px;
+    background-color: #408080;
+    border: none;
+    margin: 10px 0;
+  }
+  
+  .sumary-total-title,
+  .sumary-total-price{
+    font-size: 1.5em;
+    font-weight: 550;
+  }
+
+  .sumary-total-installment{
+    font-size: 1em;
+  }
+
+  .finish-button-container{
+    width: 60%;
+  }
+  .finish-button{
+    color: #fff;
+    background-color: #408080;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30%;
+  }

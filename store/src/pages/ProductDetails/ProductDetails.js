@@ -12,9 +12,7 @@ const ProductDetails = () => {
   const selectecdProduct = products[id - 1];
   return (
     <div>
-      <div className="back">
-        <Back />
-      </div>
+      <Back />
       <div className="details-container">
         <DetailsCard product={selectecdProduct} />
         <DetailsInfo product={selectecdProduct} />

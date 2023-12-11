@@ -7,9 +7,3 @@
     gap: 20px; /* espaço que fica entre as colunas */
   }
   
-.back {
-  display: flex;
-  align-items: left;
-  margin-top: 20px;
-  margin-left: 20px;
-}

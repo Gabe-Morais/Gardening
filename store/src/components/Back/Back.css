@@ -1,4 +1,8 @@
 .back{
     color: #639999;
     font-size: 1.2em;
+    display: flex;
+    align-items: left;
+    margin-top: 20px;
+    margin-left: 20px;
 }
