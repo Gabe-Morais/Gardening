@@ -37,7 +37,7 @@
   object-fit: cover;
 }
 
-/* media query para ajustar o layout em telas menores */
+ /*teste de responsividade*/
 @media screen and (max-width: 768px) {
   .banner {
     flex-direction: column;
