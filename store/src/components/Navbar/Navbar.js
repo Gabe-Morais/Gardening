@@ -22,7 +22,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="left-section">
         <img src={menuIcon} alt="Menu" className="icon" />
-        <img src={logoPlaceholder} alt="Logo" className="logo" />
+        <Link to="/">
+          <img src={logoPlaceholder} alt="Logo" className="logo" />
+        </Link>
         <form onSubmit={handleSearch}>
           <input
             type="text"

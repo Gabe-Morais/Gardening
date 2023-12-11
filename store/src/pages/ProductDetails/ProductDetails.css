@@ -1,5 +1,6 @@
 .details-container {
-    margin-top: 5%;
+    margin-top: 2%;
+ 
     display: grid;
     margin-left: 40px;
     grid-template-columns: 1fr 1fr; /* duas colunas de tamanho igual */
