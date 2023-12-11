@@ -2,8 +2,6 @@ import React from "react";
 import "./ProductList.css";
 import ProductCard from "../ProductCard/ProductCard";
 import products from "../../data/products";
-import { Link } from "react-router-dom";
-
 const ProductList = () => {
   return (
     <div className="product-list">
