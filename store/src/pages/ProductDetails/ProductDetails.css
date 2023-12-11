@@ -1,9 +1,30 @@
 .details-container {
-    margin-top: 2%;
- 
-    display: grid;
-    margin-left: 40px;
-    grid-template-columns: 1fr 1fr; /* duas colunas de tamanho igual */
-    gap: 20px; /* espaço que fica entre as colunas */
+  margin-top: 2%;
+  display: grid;
+  margin-left: 40px;
+  grid-template-columns: 1fr 1fr; /* duas colunas de tamanho igual */
+  gap: 20px; /* espaço que fica entre as colunas */
+}
+
+/* Adicionando regra de mídia para telas menores */
+@media screen and (max-width: 768px) {
+  .details-container {
+    grid-template-columns: 1fr; /* Uma coluna para telas menores (?)*/
+    margin-left: 30px;
+    margin-right: 30px;
   }
-  
+
+  .details-container .card-container {
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .details-container .details-info {
+    font-size: 0.8em; 
+  }
+
+  .details-container .description {
+    font-size: 0.9em; 
+  }
+
+}
