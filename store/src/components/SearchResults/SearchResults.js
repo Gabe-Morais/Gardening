@@ -8,8 +8,8 @@ const SearchResults = () => {
   const { query } = useParams();
 
   // Filtra os produtos com base no que digitar para pesquisar
-  const filteredProducts = products.filter((product) =>
-    product.name.toLowerCase().includes(query.toLowerCase())
+  const filteredProducts = products.filter(
+    (product) => product.name.toLowerCase().includes(query.toLowerCase()) //ignorar maiusculas e minusculas
   );
 
   return (
