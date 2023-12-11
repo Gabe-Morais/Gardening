@@ -16,5 +16,13 @@
   height: 100%;
   max-width: 100%;
   object-fit: contain;
+  border-radius: 20px; /* para a imagem ficar no formato das bordas do container*/
   margin: 0 auto; /*Para centralizar a imagem (??)*/
+}
+
+@media screen and (max-width: 768px) {
+ .card-container img{
+  height: 350px;
+  width: 380px;
+ }
 }
